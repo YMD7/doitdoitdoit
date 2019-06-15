@@ -1,0 +1,10 @@
+// ----------------------------------------
+//                              + header +
+// ----------------------------------------
+.l-header {
+  @include display(flex);
+  @include justify-content(center);
+  @include align-items(center);
+
+  height: $STD * 24;
+}

@@ -1,0 +1,14 @@
+// ----------------------------------------
+//                              + common +
+// ----------------------------------------
+body {
+  @include display(flex);
+  @include flex-direction(column);
+
+  background: url("/images/doit-copy.gif");
+  background-size: 50px;
+}
+.l-wrapper {
+  width: $content-width__pc-screen;
+  margin: 0 auto;
+}
